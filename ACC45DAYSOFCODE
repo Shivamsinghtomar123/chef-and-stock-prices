@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int s,a,b,c;
+	    float d;
+	    cin>>s>>a>>b>>c;
+	    d=s+s*c*0.01;
+	   // cout<<d<<endl;
+        if(d>=a && d<=b){
+            cout<<"Yes"<<endl;
+        }
+        else{
+            cout<<"No"<<endl;
+        }
+	    
+	    
+	}   
+	return 0;
+}
